@@ -9,4 +9,31 @@
   right: 15px;
   top: -10px; }
 
+.tableN {
+  padding-left: 15px; }
+
+textarea {
+  resize: none; }
+
+table {
+  display: none; }
+
+.nowrap > div {
+  flex-wrap: nowrap; }
+
+@media (max-width: 480px) {
+  .ava {
+    width: 45px; }
+
+  .txt {
+    padding-left: 10px;
+    font-size: 15pt; } }
+@media (min-width: 481px) {
+  .ava {
+    width: 60px; }
+
+  .txt {
+    padding-left: 15px;
+    font-size: 20pt; } }
+
 /*# sourceMappingURL=style.css.map */

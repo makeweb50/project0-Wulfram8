@@ -1,3 +1,6 @@
+$small: 480px;
+$default: 980px;
+
 .lent p {
   background: #f9f9f9;
   box-shadow: 0 0 5px #e5e6e8;
@@ -9,4 +12,40 @@
   position: relative;
   right: 15px;
   top: -10px;
+}
+
+.tableN {
+  padding-left: 15px;
+}
+
+textarea {
+  resize: none;
+}
+
+table {
+  display: none;
+}
+
+.nowrap > div {
+  flex-wrap: nowrap;
+}
+
+@media (max-width: $small) {
+  .ava {
+    width: 45px;
+  }
+  .txt {
+    padding-left: 10px;
+    font-size: 15pt;
+  }
+}
+
+@media (min-width: $small+1) {
+  .ava {
+    width: 60px;
+  }
+  .txt {
+    padding-left: 15px;
+    font-size: 20pt;
+  }
 }
